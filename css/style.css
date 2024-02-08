@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+
+/* GENERAL */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,60 +10,131 @@
 }
 
 body {
- font-family: "Roboto", sans-serif;
- background-color: white;
- color: white;
- display: grid;
- width: 100%;
- min-height: 60vh;
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+    color: white;
+    display: grid;
+    width: 100%;
+    min-height: 100vh;
 }
 
+/* EN-TETE */
+
+
 main {
-    border: 1px solid green;
     display: grid;
     grid-gap: 5%;
     grid-template-columns: 30% 70%;
     background-color: black;
-
+    padding-left: 10%;
 }
 
+/* ASIDE */
 
 aside {
-    border: 1px solid blue;
-    margin-left: 10%;
-    padding: 10%;
+
+    margin-left: 35%;
+    margin-top: 25%;
+    width: 75%;
+    padding: 5%;
+    padding-top: 10%;
 }
 
-aside p {
+h2 {
+    text-transform: uppercase;
+    font-size: 1.4em;
+    letter-spacing: 5px;
+}
 
+aside > p {
+    margin-top: 10%;
+    font-size: 1.1em;
+    width: 80%;
+}
+
+#logo a {
+    color: white;
 }
 
 aside footer {
     background-color: black;
     color: white;
+    margin-top: 20%;
 }
 
-h2 {
-    text-transform: uppercase;
-    font-size: 1.2em;
-    letter-spacing: 3px;
+.bi-facebook {
+    font-size: 1.7em;
+    margin-right: 5%;
 }
+
+.bi-twitter {
+    font-size: 1.7em;
+    margin-right: 5%;
+}
+
+.bi-instagram {
+    font-size: 1.7em;
+    margin-right: 5%;
+}
+
+.bi-google {
+    font-size: 1.7em;
+}
+
+aside > footer p {
+    margin-top: 5%;
+    font-size: 1.2em;
+}
+
+
+/* SECTION */
 
 section {
-    border: 1px solid red;
     width: 70%;
+    margin-top: 7%;
+    padding-top: 6%;
+    padding-left: 11%;
 }
 
 h1 {
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
+    font-size: 2em;
+    margin-left: 1%;
+}
+
+form {
+    margin-top: 5%;
+}
+
+input {
+    padding: 1.8%;
+    font-size: 1em;
+    width: 80%;
+    margin-bottom: 3.5%;
+}
+
+textarea {
+    resize: vertical;
+    font-size: 1.2em;
+    width: 80%;
+    padding: 2%;
+}
+
+::placeholder {
+    font-size: 0.9em;
+    letter-spacing: 1px;
 }
 
 button {
     text-transform: uppercase;
-    background-color: transparent;
+    background-color: yellow;
     color: white;
+    width: 30%;
 }
+
+
+/* FOOTER */
 
 body > footer {
     color: white;
