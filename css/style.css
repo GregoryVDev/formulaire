@@ -33,7 +33,7 @@ main {
 
 aside {
 
-    margin-left: 35%;
+    margin-left: 20%;
     margin-top: 25%;
     width: 75%;
     padding: 5%;
@@ -52,9 +52,6 @@ aside > p {
     width: 80%;
 }
 
-#logo a {
-    color: white;
-}
 
 aside footer {
     background-color: black;
@@ -62,19 +59,25 @@ aside footer {
     margin-top: 20%;
 }
 
+#logo {
+    display: flex;
+    gap: 20px;
+}
+
+#logo a {
+    color: white;
+}
+
 .bi-facebook {
     font-size: 1.7em;
-    margin-right: 5%;
 }
 
 .bi-twitter {
     font-size: 1.7em;
-    margin-right: 5%;
 }
 
 .bi-instagram {
     font-size: 1.7em;
-    margin-right: 5%;
 }
 
 .bi-google {
@@ -90,28 +93,31 @@ aside > footer p {
 /* SECTION */
 
 section {
-    width: 70%;
-    margin-top: 7%;
-    padding-top: 6%;
-    padding-left: 11%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 95px;
+    gap: 35px;
+    width: 75%;
 }
 
 h1 {
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 2em;
-    margin-left: 1%;
 }
 
 form {
-    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
 }
 
 input {
     padding: 1.8%;
-    font-size: 1em;
     width: 80%;
-    margin-bottom: 3.5%;
+}
+
+input, textarea {
+    margin-bottom: 40px;
 }
 
 textarea {
@@ -128,9 +134,11 @@ textarea {
 
 button {
     text-transform: uppercase;
-    background-color: yellow;
-    color: white;
+    color: black;
     width: 30%;
+    font-size: 0.9em;
+    letter-spacing: 5px;
+    padding: 10px 0;
 }
 
 
